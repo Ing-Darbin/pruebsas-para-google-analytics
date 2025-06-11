@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo sobre Python: Un Lenguaje de Programación Versátil</title>
+    <!-- Carga la fuente Inter de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Carga Tailwind CSS desde CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Estilos base con la fuente Inter */
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+            background-color: #f8fafc; /* Color de fondo muy claro */
+        }
+        /* Clases Tailwind para asegurar el redondeo de esquinas en todos los elementos */
+        .rounded-lg { border-radius: 0.5rem; }
+        .rounded-xl { border-radius: 0.75rem; }
+        .rounded-2xl { border-radius: 1rem; }
+        .rounded-full { border-radius: 9999px; }
+    </style>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=TU_ID_DE_SEGUIMIENTO"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      // ¡IMPORTANTE! Reemplaza 'TU_ID_DE_SEGUIMIENTO' con tu ID real de Google Analytics (ej. G-XXXXXXXXXX)
+      gtag('config', 'TU_ID_DE_SEGUIMIENTO');
+    </script>
+</head>
+<body class="antialiased leading-normal">
+
+    <!-- Sección de Cabecera/Héroe -->
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 px-4 md:px-8 shadow-lg">
+        <div class="container mx-auto max-w-4xl text-center">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 animate-fade-in-down">
+            ¡Bienvenidos a Python el Lenguaje que lo Conquista Todo!
+            </h1>
+            <p class="text-lg sm:text-xl opacity-90 mb-8 max-w-2xl mx-auto animate-fade-in-up">
+                Descubre por qué Python se ha convertido en uno de los lenguajes de programación más populares y versátiles del mundo.
+            </p>
+            <a href="#que-es-python" class="bg-white text-blue-700 font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-blue-100 hover:text-blue-800 transition duration-300 transform hover:scale-105">
+                Explorar Python
+            </a>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="container mx-auto px-4 py-12 md:py-16 max-w-4xl">
+
+        <!-- Sección ¿Qué es Python? -->
+        <section id="que-es-python" class="mb-16 bg-white p-8 rounded-2xl shadow-md border border-gray-100">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 border-blue-500 pb-2">
+                ¿Qué es Python?
+            </h2>
+            <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                Python es un lenguaje de programación interpretado, de alto nivel y de propósito general, creado por Guido van Rossum y lanzado por primera vez en 1991. Se caracteriza por su <strong class="text-blue-600">sintaxis clara y legible</strong>, lo que lo hace ideal tanto para principiantes como para desarrolladores experimentados. Su filosofía de diseño enfatiza la legibilidad del código con el uso significativo de la indentación.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                        A diferencia de otros lenguajes, Python permite escribir menos líneas de código para realizar tareas complejas, lo que acelera el desarrollo y facilita el mantenimiento del software. Es un lenguaje <strong class="text-blue-600">multiplataforma</strong>, lo que significa que el código escrito en Python puede ejecutarse en diferentes sistemas operativos (Windows, macOS, Linux) sin grandes modificaciones.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        Es de <strong class="text-blue-600">código abierto</strong>, lo que ha contribuido a una vasta y activa comunidad de desarrolladores que constantemente crean y mejoran librerías y frameworks.
+                    </p>
+                </div>
+                <div class="flex justify-center">
+                    <!-- Imagen Placeholder: Logo de Python -->
+                    <img src="https://placehold.co/400x250/5588cc/ffffff?text=Logo+Python" alt="[Logo de Python]" class="w-full h-auto object-cover rounded-xl shadow-md">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Características Clave -->
+        <section id="caracteristicas" class="mb-16 bg-white p-8 rounded-2xl shadow-md border border-gray-100">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 border-blue-500 pb-2">
+                Características Clave de Python
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Característica 1 -->
+                <div class="bg-blue-50 p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">Sintaxis Simple y Legible</h3>
+                    <p class="text-gray-600">Su sintaxis es muy similar al inglés, lo que facilita el aprendizaje y la lectura del código.</p>
+                </div>
+                <!-- Característica 2 -->
+                <div class="bg-blue-50 p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">Multiplataforma</h3>
+                    <p class="text-gray-600">Compatible con Windows, macOS, Linux y otros sistemas operativos.</p>
+                </div>
+                <!-- Característica 3 -->
+                <div class="bg-blue-50 p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">Gran Comunidad y Librerías</h3>
+                    <p class="text-gray-600">Acceso a miles de librerías y frameworks para casi cualquier tarea.</p>
+                </div>
+                <!-- Característica 4 -->
+                <div class="bg-blue-50 p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">Orientado a Objetos</h3>
+                    <p class="text-gray-600">Soporta la programación orientada a objetos (POO), permitiendo código modular y reutilizable.</p>
+                </div>
+                <!-- Característica 5 -->
+                <div class="bg-blue-50 p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">Interpretado</h3>
+                    <p class="text-gray-600">No necesita ser compilado, lo que acelera el ciclo de desarrollo y prueba.</p>
+                </div>
+                <!-- Característica 6 -->
+                <div class="bg-blue-50 p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">Integración Sencilla</h3>
+                    <p class="text-gray-600">Se integra fácilmente con otros lenguajes y tecnologías.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección ¿Por qué aprender Python? -->
+        <section id="por-que-aprender" class="mb-16 bg-white p-8 rounded-2xl shadow-md border border-gray-100">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 border-blue-500 pb-2">
+                ¿Por qué aprender Python?
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="flex justify-center order-2 md:order-1">
+                    <!-- Imagen Placeholder: Persona aprendiendo a codificar -->
+                    <img src="https://placehold.co/400x250/cc8855/ffffff?text=Aprender+Python" alt="[Persona aprendiendo a codificar Python]" class="w-full h-auto object-cover rounded-xl shadow-md">
+                </div>
+                <div class="order-1 md:order-2">
+                    <ul class="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-3">
+                        <li><strong class="text-green-600">Demanda Laboral:</strong> Es uno de los lenguajes más demandados en la industria tecnológica.</li>
+                        <li><strong class="text-green-600">Versatilidad:</strong> Puedes usarlo para web, ciencia de datos, IA, automatización, juegos, etc.</li>
+                        <li><strong class="text-green-600">Curva de Aprendizaje Suave:</strong> Su sintaxis amigable lo hace accesible para principiantes.</li>
+                        <li><strong class="text-green-600">Productividad:</strong> Permite desarrollar aplicaciones rápidamente.</li>
+                        <li><strong class="text-green-600">Amplio Ecosistema:</strong> Miles de librerías y frameworks que facilitan cualquier tarea.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Usos Comunes de Python -->
+        <section id="usos-comunes" class="mb-16 bg-white p-8 rounded-2xl shadow-md border border-gray-100">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 border-blue-500 pb-2">
+                Usos Comunes de Python
+            </h2>
+            <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+                La flexibilidad de Python le permite ser aplicado en una variedad de campos. Aquí algunos de los más importantes:
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Uso 1: Desarrollo Web -->
+                <div class="flex flex-col items-center bg-purple-50 p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <img src="https://placehold.co/150x100/8866aa/ffffff?text=Desarrollo+Web" alt="[Icono de desarrollo web]" class="mb-4 w-32 h-auto object-cover rounded-md">
+                    <h3 class="text-xl font-semibold text-purple-700 mb-2">Desarrollo Web</h3>
+                    <p class="text-gray-600 text-center">Con frameworks como Django y Flask, Python es una excelente opción para construir aplicaciones web robustas y escalables.</p>
+                </div>
+                <!-- Uso 2: Ciencia de Datos y Análisis -->
+                <div class="flex flex-col items-center bg-pink-50 p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <img src="https://placehold.co/150x100/ff6699/ffffff?text=Ciencia+Datos" alt="[Icono de ciencia de datos]" class="mb-4 w-32 h-auto object-cover rounded-md">
+                    <h3 class="text-xl font-semibold text-pink-700 mb-2">Ciencia de Datos y Análisis</h3>
+                    <p class="text-gray-600 text-center">Librerías como NumPy, Pandas y Matplotlib lo hacen indispensable para el análisis, manipulación y visualización de datos.</p>
+                </div>
+                <!-- Uso 3: Inteligencia Artificial y Machine Learning -->
+                <div class="flex flex-col items-center bg-green-50 p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <img src="https://placehold.co/150x100/66bb6a/ffffff?text=IA+y+ML" alt="[Icono de inteligencia artificial]" class="mb-4 w-32 h-auto object-cover rounded-md">
+                    <h3 class="text-xl font-semibold text-green-700 mb-2">Inteligencia Artificial y Machine Learning</h3>
+                    <p class="text-gray-600 text-center">Es el lenguaje preferido para IA y ML con librerías como TensorFlow, Keras y Scikit-learn.</p>
+                </div>
+                <!-- Uso 4: Automatización y Scripting -->
+                <div class="flex flex-col items-center bg-yellow-50 p-6 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <img src="https://placehold.co/150x100/ffdd55/ffffff?text=Automatizacion" alt="[Icono de automatización]" class="mb-4 w-32 h-auto object-cover rounded-md">
+                    <h3 class="text-xl font-semibold text-yellow-700 mb-2">Automatización y Scripting</h3>
+                    <p class="text-gray-600 text-center">Ideal para automatizar tareas repetitivas, administración de sistemas y scripting general.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Llamada a la Acción/Recursos -->
+        <section class="bg-blue-100 p-8 rounded-2xl text-center shadow-md border border-blue-200">
+            <h2 class="text-3xl font-bold text-blue-800 mb-4">
+                ¡Empieza tu viaje con Python hoy!
+            </h2>
+            <p class="text-lg text-blue-700 mb-6">
+                El futuro de la programación es brillante con Python. ¡Únete a millones de desarrolladores!
+            </p>
+            <a href="https://www.python.org/" target="_blank" rel="noopener" class="inline-block bg-blue-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-blue-800 transition duration-300 transform hover:scale-105">
+                Visita Python.org
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Pie de Página -->
+    <footer class="bg-gray-800 text-white py-8 px-4 mt-12">
+        <div class="container mx-auto text-center text-sm">
+            <p>&copy; 2025 Todo sobre Python by Ing. Salgado. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
